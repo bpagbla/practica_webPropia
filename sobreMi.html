@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mi</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Redacted+Script:wght@300;400;700&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <style>
+        .nav-lista ul li a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="sobreMi">
+    <nav class="nav-lista">
+        <ul>
+            <li><a href="index.html">inicio</a></li> ✧
+            <li><a href="album.html">galería</a></li> ✦
+            <li><a href="multimedia.html">multimedia recomendada</a></li> ✧
+            <li><a href="favoritas.html">favoritas por año</a></li>
+        </ul>
+    </nav>
+
+    <main class="main_sobreMi">
+        <h1 class="sobreMi_titulo">sobre mí</h1>
+        <section class="presentacion">
+            <h2 class="nombre">Beatriz pages</h2>
+            <img src="img/000031.JPG" alt="" class="pfp">
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna justo, commodo
+                quis risus tempus, aliquam aliquet leo. Donec vitae pulvinar nisi. Vestibulum egestas, lacus vel
+                volutpat tincidunt, magna metus rhoncus libero, in pharetra risus diam in arcu. Cras cursus rutrum
+                lorem, congue porttitor ipsum. Ut hendrerit urna eget massa finibus feugiat. Phasellus facilisis ornare
+                pretium. Morbi in facilisis massa.</p>
+            <a href="#contacto" class="boton_contactar">Contacta conmigo</a>
+        </section>
+
+        <section class="recomendado">
+            <h2>Visto recientemente:</h2><br>
+
+            <iframe class="rec" src="https://www.youtube.com/embed/xLVRnm4IfnE?si=Bpem4wawgK5sxKgD"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe><br>
+            <a href="multimedia.html">ver más recomendaciones</a>
+        </section>
+
+        <h1 class="sobreMi_titulo" id="contacto">contacto</h1>
+        <section class="preguntas">
+            <article class="comentario">
+                <h2>Comentarios o preguntas</h2>
+                <textarea id="comentario" name="comentario"
+                    placeholder="Pregúntame algo o mándame un comentario..."></textarea>
+                <br><button type="submit">Enviar</button>
+            </article>
+            <article class="email">
+                <form action="" method="post">
+                    <h2>Envía un correo</h2>
+                    <input type="text" name="name" placeholder="Tu nombre" class="input-email" required><br>
+                    <input type="email" name="email" placeholder="Tu Email" class="input-email" required><br>
+                    <textarea name="mensaje" id="" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+        <section class="frase">
+            <p>¡muchas gracias!</p>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/logo.gif" alt="" class="logo">
+    </footer>
+</body>
+
+</html>
